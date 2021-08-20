@@ -10,6 +10,14 @@
     margin-inline: auto;
     display: block;
 }
+@media (max-width: 800px) {
+    .crossword img {
+        min-width: 100px;
+    }
+    .container {
+        width: min(95%, 120rem);
+    }
+}
 .split {
     margin: auto;
     display: flex;
